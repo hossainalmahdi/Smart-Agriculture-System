@@ -197,7 +197,7 @@ void check_moisture(int value) {
     lcd.setCursor(0,1);
     lcd.print("Turning off");
     lcd.setCursor(0,2);
-    lcd.print("Water pump");
+    lcd.print("Turning off the Water pump");
     turn_off_waterPump();
   } else {
     // Notify user about Over saturation using GSM
