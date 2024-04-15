@@ -292,7 +292,7 @@ bool check_temperature(float temperatureValue){
     }else{
       //shade open
       if(!isShadeOpen) {
-        Serial1.print("Opening...");
+        Serial1.print("Opening....");
         open_shade();
         isShadeOpen = true;
       }
